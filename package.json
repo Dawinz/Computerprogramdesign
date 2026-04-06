@@ -1,11 +1,33 @@
 {
-  "name": "@figma/my-make-file",
+  "name": "factos",
+  "version": "1.0.0",
+  "description": "AI-Driven SaaS Factory OS - Automated pipeline for building SaaS products",
   "private": true,
-  "version": "0.0.1",
   "type": "module",
+  "author": "Factos Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/factos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/factos/issues"
+  },
+  "homepage": "https://github.com/yourusername/factos#readme",
+  "keywords": [
+    "saas",
+    "ai",
+    "automation",
+    "development",
+    "pipeline",
+    "react",
+    "typescript",
+    "vite"
+  ],
   "scripts": {
+    "dev": "vite",
     "build": "vite build",
-    "dev": "vite"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
